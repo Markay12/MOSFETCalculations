@@ -84,7 +84,7 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (F/m^2): ";
+                        cout << "Not valid Response. Try again (Y or N)\nDo you know the oxide capacitence?: ";
                         cin >> getValue;
                     }
 
@@ -109,7 +109,9 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (nm): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the oxide thickness?: ";
+
                         cin >> getValue;
                     }
 
@@ -134,7 +136,9 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (µm): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the PMOS width?: ";
+
                         cin >> getValue;
                     }
 
@@ -159,7 +163,9 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (µm): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the PMOS length?: ";
+
                         cin >> getValue;
                     }
 
@@ -184,7 +190,9 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (Volts): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the overdrive voltage?: ";
+
                         cin >> getValue;
                     }
 
@@ -209,7 +217,9 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (Volts): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the gate voltage?: ";
+
                         cin >> getValue;
                     }
 
@@ -233,7 +243,9 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (Volts): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the source voltage?: ";
+                        ;
                         cin >> getValue;
                     }
 
@@ -258,7 +270,8 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (Volts): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the drain voltage?: ";
                         cin >> getValue;
                     }
 
@@ -282,7 +295,8 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (A/V^2): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the scaled transconductance?: ";
                         cin >> getValue;
                     }
 
@@ -309,7 +323,8 @@ int main()
                         while (getValue != 'Y' && getValue != 'N')
                         {
 
-                            cout << "Not valid Response. Try again (Y or N)\nValue (A/V^2): ";
+                            cout << "Not valid Response. Try again (Y or N)\n"
+                                 << know << "the large signal transconductance?: ";
                             cin >> getValue;
                         }
 
@@ -339,7 +354,8 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue: ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the lambda?: ";
                         cin >> getValue;
                     }
 
@@ -362,7 +378,8 @@ int main()
                     while (getValue != 'Y' && getValue != 'N')
                     {
 
-                        cout << "Not valid Response. Try again (Y or N)\nValue (F/m^2): ";
+                        cout << "Not valid Response. Try again (Y or N)\n"
+                             << know << "the early voltage?: ";
                         cin >> getValue;
                     }
 
@@ -390,6 +407,7 @@ int main()
 
                         printMenu();
                         cin >> pmosCalcs;
+
                         switch (pmosCalcs)
                         {
 

@@ -35,7 +35,7 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->ox_cap != -1)
     {
 
-        cout << "Oxide Capacitence = " << mos->ox_cap;
+        cout << "Oxide Capacitence = " << mos->ox_cap << "F/m^2";
     }
     else
     {
@@ -46,7 +46,7 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->oxide_thick != -1)
     {
 
-        cout << "\t\tOxide Thickness = " << mos->oxide_thick;
+        cout << "\t\tOxide Thickness = " << mos->oxide_thick << "nm";
     }
     else
     {
@@ -56,7 +56,7 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->width != -1)
     {
 
-        cout << "\nMOSFET Width = " << mos->width;
+        cout << "\nMOSFET Width = " << mos->width << "µm";
     }
     else
     {
@@ -67,17 +67,17 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->length != -1)
     {
 
-        cout << "\t\tMOSFET Length = " << mos->length;
+        cout << "\t\t\tMOSFET Length = " << mos->length << "µm";
     }
     else
     {
 
-        cout << "\t\tMOSFET Length: N/A";
+        cout << "\t\t\tMOSFET Length: N/A";
     }
     if (mos->vov != -1)
     {
 
-        cout << "\nOverdrive Voltage = " << mos->vov;
+        cout << "\nOverdrive Voltage = " << mos->vov << "V";
     }
     else
     {
@@ -88,17 +88,17 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->vg != -1)
     {
 
-        cout << "\t\tGate Voltage = " << mos->vg;
+        cout << "\t\t\tGate Voltage = " << mos->vg << "V";
     }
     else
     {
 
-        cout << "\t\tGate Voltage: N/A";
+        cout << "\t\t\tGate Voltage: N/A";
     }
     if (mos->vs != -1)
     {
 
-        cout << "\nSource Voltage = " << mos->vs;
+        cout << "\nSource Voltage = " << mos->vs << "V";
     }
     else
     {
@@ -109,17 +109,17 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->vd != -1)
     {
 
-        cout << "\t\tDrain Voltage = " << mos->vd;
+        cout << "\t\t\tDrain Voltage = " << mos->vd << "V";
     }
     else
     {
 
-        cout << "\t\tDrain Voltage: N/A";
+        cout << "\t\t\tDrain Voltage: N/A";
     }
     if (mos->kpprime != -1)
     {
 
-        cout << "\nScaled Transconductance = " << mos->kpprime;
+        cout << "\nScaled Transconductance = " << mos->kpprime << "A/V^2";
     }
     else
     {
@@ -130,7 +130,7 @@ void MOSFET::printPMOS(MOSFET *mos)
     if (mos->kp != -1)
     {
 
-        cout << "\tLarge Scale Transconductance = " << mos->kp;
+        cout << "\tLarge Scale Transconductance = " << mos->kp << "A/V^2";
     }
     else
     {
